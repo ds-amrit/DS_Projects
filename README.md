@@ -6,6 +6,8 @@ In this repository I have included various machine learning and deep learning pr
 1) Bank Customer Churn:
 
 •	Downloaded the dataset from Kaggle and performed data cleansing and exploratory data analysis.
+![image](https://user-images.githubusercontent.com/107737679/185536594-6d04175d-4a61-4cd9-bfd8-452fc9dc6ba5.png)
+
 •	Conducted data visualization between the independent and dependent variables using count plot and boxplot. Further, the target variable is visualized using a pie chart
   to plot the proportion of customers churned and retained.
 •	The numerical variables were normalized using the Standard Scaler module from sklearn and the categorical variables were one hot encoded using pandas get_dummies function. 
