@@ -8,8 +8,10 @@ In this repository I have included various machine learning and deep learning pr
 •	Downloaded the dataset from Kaggle and performed data cleansing and exploratory data analysis.
 ![image](https://user-images.githubusercontent.com/107737679/185536594-6d04175d-4a61-4cd9-bfd8-452fc9dc6ba5.png)
 
-•	Conducted data visualization between the independent and dependent variables using count plot and boxplot. Further, the target variable is visualized using a pie chart
-  to plot the proportion of customers churned and retained.
+•	Conducted data visualization between the independent and dependent variables using count plot and boxplot. 
+![image](https://user-images.githubusercontent.com/107737679/185536970-e86dfa68-1dd1-49c1-8b40-e30912da4528.png)
+
+  Further, the target variable is visualized using a pie chart to plot the proportion of customers churned and retained.
 •	The numerical variables were normalized using the Standard Scaler module from sklearn and the categorical variables were one hot encoded using pandas get_dummies function. 
 •	The dataset is split into train and test. Machine learning models like Logistic Regression, Support Vector Machine, and Random Forest were fit on the training data 
   using GridSearchCV and hyperparameter optimization using a parameter grid to procure the optimum results from the models.
