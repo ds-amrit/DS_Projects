@@ -3,25 +3,7 @@ In this repository I have included various machine learning and deep learning pr
 
 # Project Experience:
 
-1) Bank Customer Churn:
-
-•	Downloaded the dataset from Kaggle and performed data cleansing and exploratory data analysis.
-Further, the target variable is visualized using a pie chart to plot the proportion of customers churned and retained.
-![image](https://user-images.githubusercontent.com/107737679/185536594-6d04175d-4a61-4cd9-bfd8-452fc9dc6ba5.png)
-
-•	Conducted data visualization between the independent and dependent variables using count plot and boxplot. 
-![image](https://user-images.githubusercontent.com/107737679/185536970-e86dfa68-1dd1-49c1-8b40-e30912da4528.png)
-![image](https://user-images.githubusercontent.com/107737679/185537124-1c4ea7b7-4308-41e3-bb1f-92e9dbc57f9c.png)
-
-  
-•	The numerical variables were normalized using the Standard Scaler module from sklearn and the categorical variables were one hot encoded using pandas get_dummies function. 
-•	The dataset is split into train and test. Machine learning models like Logistic Regression, Support Vector Machine, and Random Forest were fit on the training data 
-  using GridSearchCV and hyperparameter optimization using a parameter grid to procure the optimum results from the models.
-•	Finally, the best models were tested on the test data, and the random forest classifier model delivered the best results.
-•	To further optimize the classification accuracy a deep learning model was trained from scratch and was further optimized using the Keras tuner to optimize the 
-  architecture to produce SOTA results to predict customer churn.
-
-2) Credit Card Fraud Detection:
+1) Credit Card Fraud Detection:
 
 •	Classified credit card transactions into fraud or non-fraud by building a model based on ensemble methods like Random Forest Classifier and Voting Classifier and 
   further fine-tuned them to optimize their performance.
